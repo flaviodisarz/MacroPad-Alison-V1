@@ -164,9 +164,7 @@ void loop() {
             Keyboard.println("di");
             break;
           case '2':
-            Keyboard.press(KEY_RIGHT_CTRL);
-            Keyboard.press('b');
-            Keyboard.releaseAll();
+            Keyboard.println("qsave");
             break;
           case '3':
             Keyboard.println("aa");
@@ -189,13 +187,15 @@ void loop() {
             Keyboard.println("di");
             break;
           case '2':
-            Keyboard.println("qsave");
+            Keyboard.press(KEY_RIGHT_CTRL);
+            Keyboard.press('b');
+            Keyboard.releaseAll();
             break;
           case '3':
-            Keyboard.println("aa");
+            Keyboard.println("m");
             break;
           case '4':
-            Keyboard.println("co");
+            Keyboard.println("c");
             break;
         }
         delay(50);
